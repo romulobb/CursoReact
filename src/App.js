@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Greeting from './component/pure/greeting';
 import Greetingf from './component/pure/greetingf';
+import TaskListComponent from './component/container/task_list';
 
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           {/* <Greeting name="Pepe"/> */}
-          <Greetingf name="pepe"/>
+          {/*<Greetingf name="pepe"/>*/}
+
         </p>
-        
+        <TaskListComponent></TaskListComponent>
       </header>
     </div>
   );

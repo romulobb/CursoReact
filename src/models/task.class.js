@@ -11,9 +11,7 @@ export class Task {
         this.description=description;
         this.completed=completed;
         this.level=level;
- 
-
-        
     }
+    
 
 }
